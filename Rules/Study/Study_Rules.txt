@@ -2,3 +2,15 @@
 ||zijieapi.com^
 ||douyinpic.com^
 ||snssdk.com^
+||goofish.com^
+||alicdn.com^
+||tanx.com^
+||alipayobjects.com^
+||aliyuncs.com^
+||dbankcloud.cn^
+||taobao.com^
+||alibaba-inc.com^
+||dingtalk.com^
+||*.xianyu.*^
+||alibabausercontent.com^
+||wosms.cn^
