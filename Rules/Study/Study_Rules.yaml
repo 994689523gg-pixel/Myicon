@@ -1,2 +1,5 @@
 payload:
-    - 
+  - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-SUFFIX,douyu.com
+  - DOMAIN-KEYWORD,5eplay
+  - DOMAIN-KEYWORD,douyin
