@@ -1,111 +1,157 @@
-||*.wwstat.com^
-||*.360buyimg.com^
-||*.medproad.com^
-||*.cyapi.cn^
-||*.puata.info^
-||mqtt.aliyuncs.com^
-! --- 基础广告与追踪拦截 ---
-||c.tobidad.cn^
-||unamecf*.xn.*^
-||adblockplus.org^
-||downloadcfpro.xn*^
-||api.wxcjgg.cn^
-||66mobi.com^
-||alibabachengdun.com^
-||alibabachengdun.net^
-||yunxish.com^
-||tg.zztfly.com^
-||zztfly.com^
-||flysleep.cn^
-||aishuttler.com^
-||y5kfpt.com^
-||y5coin.com^
-||sogaha.cn^
-||adbiding.com^
-! --- 视频与流媒体优化 (去广告及屏蔽追踪) ---
-||webcast5-open-lq.douyin.com^
-||webcast-open.douyin.com^
-||g-api.kwai.com^
-||cm.douyinvod.com^
-||douyin.starrydyn.com^
-||v5-port.douyinvod.com^
-||pull-hls-t13.douyincdn.com^
-||googlevideo.com/get_midroll_
-||static.doubleclick.net^$domain=youtube.com
-! --- 系统监控与连接测试屏蔽 ---
-||accscdn4public.m.taobao.com^
-||amdc-sibling.alipay.com.cn^
-||connect.rom.miui.com^
-||connectivitycheck.platform.hicloud.com^
-||settings-win.data.microsoft.com^
-||functional.events.data.microsoft.com^
-! --- 批量 PQ 规则合并 (使用正则或通配符) ---
-||yydjc.top^
-||globals-download.com^
-! --- 关键服务白名单 (防止误杀) ---
-@@||cdn.api.chelaile.net.cn^
-@@||api.chelaile.net.cn^
-@@||ktm*.*^
-@@||mcdn.bilivideo.cn^
-@@||log.zijieapi.com^
-@@||e-hentai.org^
-@@||forums.e-hentai.org^
-@@||cdn.jsdelivr.net^
-@@||mssdk.bytedance.com^
-||api.ttwifi.net^
-||*.aiyituo.com^
-||wifi.vivo.com.cn^$important
-||*.lsttnews.com^
-||adtrack.qianwen.com^$important
-@@||im-x.jd.com^$important
-||api-access.pangolin-sdk-toutiao1.com^$important
-||wx.qlogo.cn^$important
-@@||yulovewan.dns.army^$important
-@@||in.appcenter.ms^$important
-||connectivitycheck.cbg-app.huawei.com.cn^$important
-@@||down10.zol.com.cn^$important
-||*.bbniao.net^
-||genrati.xyz^
-||api.log6.space^
-||360mixup.com^
-||strongwill100.com^
-||bbniao.net^$important
-||vpushonrt-stsdk.vivo.com.cn^$important
-||onrt-stsdk.vivo.com.cn^$important
-||map-component.cdn.bcebos.com^$important
-||www.dxmpay.com^$important
-||app.duxiaomanfintech.com^$important
-||app.duxiaoman.com^$important
-||lf1-cdn-tos.bytegoofy.com^$important
-||webcast5-open-hl.douyin.com^$important
-||s3plus.meituan.net^$important
-||impdsp.meituan.com^$important
-||image3.chelaile.net.cn^$important
-||yumao.puata.info^$important
-||ali-adaptive.pull.yximgs.com^$important
-||vpushort-stsdk.vivo.com.cn^$important
-||bd-adaptive.pull.yximgs.com^$important
-||tx-rwk.pull.etoote.com^$important
-||store-drcn.hispace.dbankcloud.com^$important
-||pull.yximgs.com^
-||jstatic.3.cn^$important
-||etoote.com^
-||bytescm.com
-||lbs6.map.qq.com^$important
-||stappupgrade.vivo.com.cn^$important
-||appstoreprt-stsdk.vivo.com.cn^$important
-||stdj.appstore.vivo.com.cn^$important
-||api.map.baidu.com^$important
-||logs.chelaile.net.cn^$important
-||healthdata.dbankcloud.cn^$important
-||sdk.push.mob.com^$important
-||metrics1.data.hicloud.com^$important
-||gather.colorfulclouds.net^$important
-||api-d.yksdks.com^$important
-||atrace.chelaile.net.cn^$important
-||szextshort.weixin.qq.com^$important
-||unamecf.xn--ghqu5fm27b67w.com^$important
-@@||pq.us1.globals-download.com^$important
-@@||logapi-and.zhipin.com^$important
+! ========================================== 
+! 基础广告与追踪拦截 
+! ========================================== 
+ 
+||c.tobidad.cn^ 
+||unamecf*.xn.*^ 
+||downloadcfpro.xn*^ 
+||api.wxcjgg.cn^ 
+||66mobi.com^ 
+||alibabachengdun.com^ 
+||alibabachengdun.net^ 
+||yunxish.com^ 
+||tg.zztfly.com^ 
+||zztfly.com^ 
+||flysleep.cn^ 
+||aishuttler.com^ 
+||y5kfpt.com^ 
+||y5coin.com^ 
+||sogaha.cn^ 
+||adbiding.com^ 
+||yydjc.top^ 
+||globals-download.com^ 
+||1rtb.com^ 
+||ubixioe.com^ 
+ 
+ 
+! ========================================== 
+! 广告 / DSP / SDK / 数据追踪 
+! ========================================== 
+ 
+||adtrack.qianwen.com^$important 
+||api-access.pangolin-sdk-toutiao1.com^$important 
+||www.dxmpay.com^$important 
+||app.duxiaomanfintech.com^$important 
+||app.duxiaoman.com^$important 
+||impdsp.meituan.net^$important 
+||api-d.yksdks.com^$important 
+||genrati.xyz^ 
+||api.log6.space^ 
+||360mixup.com^ 
+||strongwill100.com^ 
+||bbniao.net^$important 
+||bbniao.net^ 
+||etoote.com^ 
+||bytescm.com 
+||puata.info^ 
+||yumao.puata.info^$important 
+ 
+ 
+! ========================================== 
+! 抖音 / 快手 / 字节系广告及追踪 
+! ========================================== 
+ 
+||webcast5-open-lq.douyin.com^ 
+||webcast-open.douyin.com^ 
+||webcast5-open-hl.douyin.com^$important 
+||g-api.kwai.com^ 
+||cm.douyinvod.com^ 
+||douyin.starrydyn.com^ 
+||v5-port.douyinvod.com^ 
+||pull-hls-t13.douyincdn.com^ 
+||lf1-cdn-tos.bytegoofy.com^$important 
+ 
+ 
+! ========================================== 
+! 视频 / YouTube 广告 
+! ========================================== 
+ 
+||googlevideo.com/get_midroll_ 
+||static.doubleclick.net^$domain=youtube.com 
+ 
+ 
+! ========================================== 
+! Vivo / 华为系统广告及数据 
+! ========================================== 
+ 
+||wifi.vivo.com.cn^$important 
+||vpushonrt-stsdk.vivo.com.cn^$important 
+||vpushort-stsdk.vivo.com.cn^$important 
+||onrt-stsdk.vivo.com.cn^$important 
+||stappupgrade.vivo.com.cn^$important 
+||appstoreprt-stsdk.vivo.com.cn^$important 
+||stdj.appstore.vivo.com.cn^$important 
+ 
+||connectivitycheck.platform.hicloud.com^ 
+||connectivitycheck.cbg-app.huawei.com.cn^$important 
+||store-drcn.hispace.dbankcloud.com^$important 
+||healthdata.dbankcloud.cn^$important 
+||metrics1.data.hicloud.com^$important 
+ 
+ 
+! ========================================== 
+! 淘宝 / 阿里 / 京东等商业追踪 
+! ========================================== 
+ 
+||accscdn4public.m.taobao.com^ 
+||amdc-sibling.alipay.com.cn^ 
+||jstatic.3.cn^$important 
+ 
+ 
+! ========================================== 
+! 微信 / 地图 / 出行等追踪 
+! ========================================== 
+ 
+||wx.qlogo.cn^$important 
+||szextshort.weixin.qq.com^$important 
+ 
+||map-component.cdn.bcebos.com^$important 
+||api.map.baidu.com^$important 
+||lbs6.map.qq.com^$important 
+ 
+||logs.chelaile.net.cn^$important 
+||image3.chelaile.net.cn^$important 
+||atrace.chelaile.net.cn^$important 
+ 
+ 
+! ========================================== 
+! 网络检测 / 系统连接测试 
+! ========================================== 
+ 
+||connect.rom.miui.com^ 
+||settings-win.data.microsoft.com^ 
+||functional.events.data.microsoft.com^ 
+ 
+ 
+! ========================================== 
+! 其他广告 / 联网 / 数据服务 
+! ========================================== 
+ 
+||api.ttwifi.net^ 
+||aiyituo.com^ 
+||lsttnews.com^ 
+||gather.colorfulclouds.net^$important 
+||sdk.push.mob.com^$important 
+||unamecf.xn--ghqu5fm27b67w.com^$important 
+ 
+ 
+! ========================================== 
+! 白名单 / 关键服务 
+! ========================================== 
+ 
+@@||cdn.api.chelaile.net.cn^ 
+@@||api.chelaile.net.cn^ 
+@@||ktm*.*^ 
+@@||mcdn.bilivideo.cn^ 
+@@||log.zijieapi.com^ 
+@@||e-hentai.org^ 
+@@||forums.e-hentai.org^ 
+@@||cdn.jsdelivr.net^ 
+@@||mssdk.bytedance.com^ 
+@@||im-x.jd.com^$important 
+@@||yulovewan.dns.army^$important 
+@@||in.appcenter.ms^$important 
+@@||down10.zol.com.cn^$important 
+@@||pq.us1.globals-download.com^$important 
+@@||logapi-and.zhipin.com^$important 
 @@||statistic.live.126.net^$important
-||1rtb.com^
