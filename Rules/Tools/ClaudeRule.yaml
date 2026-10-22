@@ -1,5 +1,6 @@
 payload:
   # 核心域名
+  - DOMAIN-SUFFIX,platform.claude.com
   - DOMAIN-SUFFIX,api.anthropic.com
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
